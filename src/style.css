@@ -8,8 +8,8 @@
   --color-gray-50: #666;
   --color-gray-90: #073642;
 
-  --header-background-color: #f5f5f5f;
-  --background-color: #fcffef;
+  --header-background-color: #f5f5f5;
+  --background-color: #fcffee;
 
   --text-color: var(--color-gray-90);
   --text-color-link: rgb(10, 158, 196);
@@ -22,7 +22,12 @@
 
 h1,h2,p {
   font-family: var(--system-ui);
-  background-color: transparent;
+  /* background-color: transparent; */
+}
+
+h2 {
+  font-weight:500;
+  font-variant: all-petite-caps;
 }
 
 html,
@@ -69,9 +74,20 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--color-gray-50);
+  border-bottom: 1px ridge var(--color-gray-20);
   background-color: var(--header-background-color);
+  position:relative;
   z-index: 6;
+}
+.site-title {
+  font-family: 'winco', var(--system-ui);
+  font-size:1.8em;
+  font-weight: 500;
+  margin: 0 0.6em 0;
+  padding: 0.5em;
+  height: 1.5em;
+  color: rgba(7, 54, 66,0.9);
+
 }
 
 header:after {
@@ -157,48 +173,6 @@ header:after {
 }
 
 
-/* Tags */
-.post-tag {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  font-size: 0.75em; /* 12px /16 */
-  padding: 0.08333333333333em 0.3333333333333em; /* 1px 4px /12 */
-  margin-left: 0.6666666666667em; /* 8px /12 */
-  margin-top: 0.5em; /* 6px /12 */
-  margin-bottom: 0.5em; /* 6px /12 */
-  color: var(--color-gray-90);
-  border: 1px solid var(--color-gray-50);
-  border-radius: 0.25em; /* 3px /12 */
-  text-decoration: none;
-  line-height: 1.8;
-}
-a[href].post-tag,
-a[href].post-tag:visited {
-  color: inherit;
-}
-a[href].post-tag:hover,
-a[href].post-tag:focus {
-  background-color: var(--color-gray-20);
-}
-.postlist-item > .post-tag {
-  align-self: center;
-}
-
-/* Infobox */
-:root {
-  --color-infobox: #ffc;
-}
-
-.infobox {
-  background-color: var(--color-infobox);
-  color: var(--color-gray-90);
-  padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.infobox ol:only-child {
-  margin: 0;
-}
 
 /* Direct Links / Markdown Headers */
 .direct-link {

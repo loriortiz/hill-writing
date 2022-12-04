@@ -1,5 +1,5 @@
 ---
-title: Hillary Keel Strohmeier | Writing
+title: Hillary Keel | Writing
 layout: base.njk
 templateEngineOverride: njk,md
 ---
@@ -8,7 +8,9 @@ templateEngineOverride: njk,md
 
 
 {% for poem in collections.poems %}
+  <h2><a href="{{ poem.url }}">{{ poem.data.title }}</a></h2>
 
-- [{{ poem.data.title }}]({{poem.url}})
+  <blockquote>{% excerpt poem %}</blockquote>
+  
+{%- endfor -%}
 
-{%- endfor %}

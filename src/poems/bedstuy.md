@@ -3,7 +3,7 @@ title: Bedstuy
 layout: "poem.njk"
 ---
 
-“…to be free in every aspect.”  Mighty Beardo<!-- end -->
+“…to be free in every aspect.”  Mighty Beardo---
 
 a stroller, a flaneur, the quiet      
 of, there is snow, a snowy     

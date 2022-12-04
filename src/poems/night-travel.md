@@ -3,7 +3,7 @@ title: Night Travel
 layout: "poem.njk"
 ---
 
-Deep breath, dreaming, awake,<!-- end -->   
+Deep breath, dreaming, awake,---  
 I walk through white apartment,   
 I sleep in my kitchen, in my living room,   
 I’m dreaming I’m awake.

@@ -3,7 +3,7 @@ title: Swimming Particles in a field
 layout: "poem.njk"
 ---
 
-old swivel chair I sit<!-- end -->  
+old swivel chair I sit--- 
 at vintage dining table  
 for desk, I swim through   
 grainy computer interface   
