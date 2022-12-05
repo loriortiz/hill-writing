@@ -3,7 +3,7 @@ title: an die deutche sprache
 layout: "poem.njk"
 ---
 
-so klar, so bestimmt<!--excerpt--> 
+so klar, so bestimmt---  
 mit Anfang und Ende.  
 bestimmt. so konkret, eine Sprache  
 mit Anfang und Ende  
