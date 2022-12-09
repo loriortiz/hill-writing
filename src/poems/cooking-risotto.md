@@ -1,11 +1,9 @@
 ---
-title: Cooking Risotto (Or Why I Love My Life)
+title: "Cooking Risotto (Or Why I Love My Life)"
 layout: "poem.njk"
 ---
 
-
-
-—a new recipe small pieces---  
+a new recipe small pieces---  
 of asparagus & shrimp lemon juice  
 prepared in separate pan & I think  
 of G.—when did I last cook risotto when  

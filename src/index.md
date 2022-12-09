@@ -10,12 +10,14 @@ templateEngineOverride: njk,md
 
 ## Poems, Prose
 
-{% for poem in collections.poems %}
-  <h3><a class="poem-link" href="{{ poem.url }}">{{ poem.data.title }}</a></h3>
+<ul class="menu">
 
-  <blockquote>{% excerpt poem %}</blockquote>
-  
-{%- endfor -%}
+  {%- for poem in collections.poems -%}
+    <li>
+      <a href="{{ poem.url }}">{{ poem.data.title }}</a>
+      <p>{% excerpt poem %}</p>
+    </li>
+  {%- endfor -%}
 
-
+</ul>
 
