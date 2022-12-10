@@ -19,9 +19,6 @@
   --text-color: var(--color-gray-90);
   --text-color-link: rgb(10, 158, 196);
   --text-color-link-visited: var(--color-gray-90);
-  
-  --header-home-link: var(--color-gray-50);
-  --header-home-link-visited: var(--color-gray-50);
 }
 
 *,
@@ -76,7 +73,7 @@ p,
 p a {color: var(--text-color-link)}
 
 p b {
-  font-weight:500;
+  /* font-weight:400; */
   text-rendering: optimizeLegibility;
 }
 
@@ -86,6 +83,8 @@ main {
   max-width: 37.5em;
   padding-bottom: 5em;
 }
+
+/* Header */
 
 header {
   border-bottom: 1px ridge var(--color-gray-20);
@@ -107,25 +106,20 @@ header {
 
 }
 
+h1.poem-page a {
+  color: var(--color-gray-50);
+  text-decoration:none;
+}
+
+h1.poem-page a:hover {
+  color: var(--color-blackish);
+  text-decoration:underline;
+}
+
 header:after {
   content: "";
   display: table;
   clear: both;
-}
-
-/* Header */
-.home {
-  padding: 0 1rem;
-  float: left;
-  margin: 1rem 0; /* 16px /16 */
-  font-size: 1em; /* 16px /16 */
-}
-.home :link:not(:hover) {
-  text-decoration: none;
-}
-
-.header-poems {
-  color: var(--text-color-link);
 }
 
 /* Home page TOC */
@@ -162,9 +156,9 @@ header:after {
   color: var(--color-blackish);
  }
 
-/* .menu li a[href].poem-link:hover {
+.menu li a[href].poem-link:hover {
   color: var(--color-gray-50);
-} */
+}
 
 hr {
     border: none;
@@ -195,6 +189,4 @@ footer p {
   text-align: center;
   margin: 0 auto;
   padding: 0.8em;
-
-  
 }
