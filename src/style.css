@@ -6,7 +6,7 @@
 
 /* Theme colors */
 :root {
-  --color-gray-20: #e0e0e0;
+  --color-gray-20: #cccce0;
   --color-gray-50: rgba(7, 54, 66,0.4);
   --color-gray-90: #073642;
   --color-blackish: #006;
@@ -125,7 +125,6 @@ header:after {
 
 .menu li {
   line-height: 1.3;
-  border-top: 1px ridge var(--color-gray-20);
 }
 
 .menu li p {
@@ -153,6 +152,23 @@ header:after {
 
 .menu li a[href].poem-link:hover {
   color: var(--color-gray-50);
+}
+
+hr {
+    border: none;
+    border-top: 3px double var(--color-gray-20);
+    color: var(--color-gray-20);
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+  background-color: var(--background-color);
+  content: '§';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
 }
 
 footer {

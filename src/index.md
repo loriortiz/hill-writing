@@ -17,6 +17,7 @@ templateEngineOverride: njk,md
       <a href="{{ poem.url }}">{{ poem.data.title }}</a>
       <p>{% excerpt poem %}</p>
     </li>
+    <hr />
   {%- endfor -%}
 
 </ul>
