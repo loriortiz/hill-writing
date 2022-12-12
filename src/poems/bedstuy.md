@@ -1,6 +1,7 @@
 ---
 title: Bedstuy
 layout: "poem.njk"
+date: 2015-01-01
 ---
 
 “…to be free in every aspect.”  Mighty Beardo---

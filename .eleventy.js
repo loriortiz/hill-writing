@@ -1,5 +1,6 @@
 
 const excerpt = require('./plugins/excerpt');
+const pluginDate = require("eleventy-plugin-date");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/style.css");
@@ -8,13 +9,19 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
-    // Optional, default is "---"
   });
 
   eleventyConfig.addShortcode('excerpt', (poem) => {
     return excerpt(poem);
   });
 
+  eleventyConfig.addPlugin(pluginDate, {
+    formats: {
+      readableDate: { year: 'numeric' },
+      includeDefaults: false,
+    },
+  });
+ 
   return {
     dir: {
       input: "src",

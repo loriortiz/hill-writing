@@ -1,6 +1,7 @@
 ---
 title: an die deutche sprache
 layout: "poem.njk"
+date: 1994-01-01
 ---
 
 so klar, so bestimmt---  

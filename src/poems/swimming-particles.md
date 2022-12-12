@@ -1,6 +1,7 @@
 ---
 title: Swimming Particles in a field
 layout: "poem.njk"
+date: 2017-01-03
 ---
 
 old swivel chair I sit---  

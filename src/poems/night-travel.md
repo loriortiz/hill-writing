@@ -1,6 +1,7 @@
 ---
 title: Night Travel
 layout: "poem.njk"
+date: 2017-01-02
 ---
 
 Deep breath, dreaming, awake,---  

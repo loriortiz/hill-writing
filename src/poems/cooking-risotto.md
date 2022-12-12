@@ -1,6 +1,7 @@
 ---
 title: "Cooking Risotto (Or Why I Love My Life)"
 layout: "poem.njk"
+date: 2017-01-01
 ---
 
 a new recipe small pieces---  

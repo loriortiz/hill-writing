@@ -1,6 +1,7 @@
 ---
 title: "Above the Timber Line"
 layout: "poem.njk"
+date: 1994-01-02
 ---
 
 Where grass looks like velvet,---  

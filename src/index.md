@@ -12,9 +12,10 @@ templateEngineOverride: njk,md
 
 <ul class="menu">
 
-  {%- for poem in collections.poems -%}
+  {%- for poem in collections.poems | reverse -%}
     <li>
       <a class=poem-link href="{{ poem.url }}">{{ poem.data.title }}</a>
+      <br /><small><i>{{ poem.date | readableDate }}</i></small>
       <p>{% excerpt poem %}</p>
     </li>
     <hr />

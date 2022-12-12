@@ -1,6 +1,7 @@
 ---
 title: "the erste fois i war à prague"
 layout: "poem.njk"
+date: 1993-01-01
 ---
 
 November fog und Kälte;---   
